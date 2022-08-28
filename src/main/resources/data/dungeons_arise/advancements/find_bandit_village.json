@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Rusted Root",
+            "translate": "advancement.dungeons_arise.find_bandit_village",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find a Bandit Village"
+            "translate": "advancement.dungeons_arise.find_bandit_village.desc"
         },
         "icon": {
             "item": "minecraft:dead_bush"

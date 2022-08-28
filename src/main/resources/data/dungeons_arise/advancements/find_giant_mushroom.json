@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "A Saucerful of Secrets",
+            "translate": "advancement.dungeons_arise.find_giant_mushroom",
             "color": "dark_purple"
         },
         "description": {
-            "text": "Find a Giant Mushroom"
+            "translate": "advancement.dungeons_arise.find_giant_mushroom.desc"
         },
         "icon": {
             "item": "minecraft:red_mushroom_block"

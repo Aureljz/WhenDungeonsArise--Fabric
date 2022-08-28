@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Who Killed This Thing?",
+            "translate": "advancement.dungeons_arise.find_ceryneian_hind",
             "color": "white"
         },
         "description": {
-            "text": "Find a Ceryneian Hind"
+            "translate": "advancement.dungeons_arise.find_ceryneian_hind.desc"
         },
         "icon": {
             "item": "minecraft:bone"

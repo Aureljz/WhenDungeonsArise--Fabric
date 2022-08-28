@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Sweet Dreams",
+            "translate": "advancement.dungeons_arise.find_mushroom_village",
             "color": "green"
         },
         "description": {
-            "text": "Find a Mushroom Village"
+            "translate": "advancement.dungeons_arise.find_mushroom_village.desc"
         },
         "icon": {
             "item": "minecraft:crimson_fence"

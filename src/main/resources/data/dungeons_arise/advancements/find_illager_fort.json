@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Wild Tales",
+            "translate": "advancement.dungeons_arise.find_illager_fort",
             "color": "dark_purple"
         },
         "description": {
-            "text": "Find an Illager Fort"
+            "translate": "advancement.dungeons_arise.find_illager_fort.desc"
         },
         "icon": {
             "item": "minecraft:snowball"

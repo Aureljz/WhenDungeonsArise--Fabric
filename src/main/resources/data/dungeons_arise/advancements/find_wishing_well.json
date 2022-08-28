@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Jump",
+            "translate": "advancement.dungeons_arise.find_wishing_well",
             "color": "dark_aqua"
         },
         "description": {
-            "text": "Find a Wishing Well "
+            "translate": "advancement.dungeons_arise.find_wishing_well.desc"
         },
         "icon": {
             "item": "minecraft:melon_slice"

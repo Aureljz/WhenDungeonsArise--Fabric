@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Fishing In The Dark",
+            "translate": "advancement.dungeons_arise.find_fishing_hut",
             "color": "dark_blue"
         },
         "description": {
-            "text": "Find a Fishing Hut"
+            "translate": "advancement.dungeons_arise.find_fishing_hut.desc"
         },
         "icon": {
             "item": "minecraft:fishing_rod"

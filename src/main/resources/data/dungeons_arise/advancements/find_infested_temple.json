@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Super Creeps",
+            "translate": "advancement.dungeons_arise.find_infested_temple",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find an Infested Temple"
+            "translate": "advancement.dungeons_arise.find_infested_temple.desc"
         },
         "icon": {
             "item": "minecraft:infested_stone_bricks"

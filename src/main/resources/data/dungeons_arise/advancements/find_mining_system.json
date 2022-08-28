@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Stone Free",
+            "translate": "advancement.dungeons_arise.find_mining_system",
             "color": "dark_gray"
         },
         "description": {
-            "text": "Find a Mining System"
+            "translate": "advancement.dungeons_arise.find_mining_system.desc"
         },
         "icon": {
             "item": "minecraft:hopper_minecart"

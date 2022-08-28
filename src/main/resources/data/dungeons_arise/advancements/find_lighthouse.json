@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "The Lighthouse",
+            "translate": "advancement.dungeons_arise.find_lighthouse",
             "color": "yellow"
         },
         "description": {
-            "text": "Arrive at a Lighthouse"
+            "translate": "advancement.dungeons_arise.find_lighthouse.desc"
         },
         "icon": {
             "item": "minecraft:redstone_lamp"

@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "A Quiet Place",
+            "translate": "advancement.dungeons_arise.find_monasteries",
             "color": "blue"
         },
         "description": {
-            "text": "Find a Monastery"
+            "translate": "advancement.dungeons_arise.find_monasteries.desc"
         },
         "icon": {
             "item": "minecraft:feather"

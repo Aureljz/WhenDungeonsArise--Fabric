@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Lost for Words",
+            "translate": "advancement.dungeons_arise.find_abandoned_temple",
             "color": "aqua"
         },
         "description": {
-            "text": "Find an Abandoned Temple"
+            "translate": "advancement.dungeons_arise.find_abandoned_temple.desc"
         },
         "icon": {
             "item": "minecraft:cracked_stone_bricks"

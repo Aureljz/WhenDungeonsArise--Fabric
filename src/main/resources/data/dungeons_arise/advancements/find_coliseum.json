@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Remember Me For Centuries",
+            "translate": "advancement.dungeons_arise.find_coliseum",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find a Coliseum"
+            "translate": "advancement.dungeons_arise.find_coliseum.desc"
         },
         "icon": {
             "item": "minecraft:shield"

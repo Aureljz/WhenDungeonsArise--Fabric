@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Ride Of The Valkyries",
+            "translate": "advancement.dungeons_arise.find_heavenly_rider",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find a Heavenly Rider"
+            "translate": "advancement.dungeons_arise.find_heavenly_rider.desc"
         },
         "icon": {
             "item": "minecraft:saddle"
