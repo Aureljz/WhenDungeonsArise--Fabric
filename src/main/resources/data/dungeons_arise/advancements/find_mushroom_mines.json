@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "We All Lift Together",
+            "translate": "advancement.dungeons_arise.find_mushroom_mines",
             "color": "dark_blue"
         },
         "description": {
-            "text": "Find a Mushroom Mine"
+            "translate": "advancement.dungeons_arise.find_mushroom_mines.desc"
         },
         "icon": {
             "item": "minecraft:iron_pickaxe"

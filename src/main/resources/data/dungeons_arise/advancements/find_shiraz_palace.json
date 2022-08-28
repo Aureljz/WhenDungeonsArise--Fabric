@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Enter Sandman",
+            "translate": "advancement.dungeons_arise.find_shiraz_palace",
             "color": "gold"
         },
         "description": {
-            "text": "Find the Shiraz Palace"
+            "translate": "advancement.dungeons_arise.find_shiraz_palace.desc"
         },
         "icon": {
             "item": "minecraft:totem_of_undying"

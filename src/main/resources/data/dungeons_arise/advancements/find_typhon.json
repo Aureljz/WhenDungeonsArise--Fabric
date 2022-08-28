@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Jaws",
+            "translate": "advancement.dungeons_arise.find_typhon",
             "color": "dark_aqua"
         },
         "description": {
-            "text": "Find a Typhon"
+            "translate": "advancement.dungeons_arise.find_typhon.desc"
         },
         "icon": {
             "item": "minecraft:fire_coral"

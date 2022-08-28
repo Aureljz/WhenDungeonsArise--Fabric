@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Katabasis",
+            "translate": "advancement.dungeons_arise.find_scorched_mines",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find the Scorched Mines"
+            "translate": "advancement.dungeons_arise.find_scorched_mines.desc"
         },
         "icon": {
             "item": "minecraft:blaze_powder"

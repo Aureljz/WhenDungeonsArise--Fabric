@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "What Happens in Las Vegas...",
+            "translate": "advancement.dungeons_arise.find_bandit_towers",
             "color": "red"
         },
         "description": {
-            "text": "Find the Bandit Towers"
+            "translate": "advancement.dungeons_arise.find_bandit_towers.desc"
         },
         "icon": {
             "item": "minecraft:lantern"

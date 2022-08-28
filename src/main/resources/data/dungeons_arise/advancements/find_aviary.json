@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Three Little Birds",
+            "translate": "advancement.dungeons_arise.find_aviary",
             "color": "gold"
         },
         "description": {
-            "text": "Find an Aviary"
+            "translate": "advancement.dungeons_arise.find_aviary.desc"
         },
         "icon": {
             "item": "minecraft:phantom_membrane"

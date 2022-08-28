@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Sky High",
+            "translate": "advancement.dungeons_arise.find_small_blimp",
             "color": "red"
         },
         "description": {
-            "text": "Find a Small Blimp"
+            "translate": "advancement.dungeons_arise.find_small_blimp.desc"
         },
         "icon": {
             "item": "minecraft:comparator"
