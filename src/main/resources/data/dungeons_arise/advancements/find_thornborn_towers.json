@@ -4,8 +4,12 @@
       "item": "minecraft:rose_bush",
       "color": "dark_aqua"
     },
-    "title": "Guns and Roses",
-    "description": "Visit the Thornborn Towers",
+    "title": {
+      "translate": "whendungeonsarise.advancement.find_thornborn_towers"
+    },
+    "description": {
+      "translate": "whendungeonsarise.advancement.find_thornborn_towers.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

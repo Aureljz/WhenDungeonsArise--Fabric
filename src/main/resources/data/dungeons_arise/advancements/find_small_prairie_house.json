@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "The Good Place",
+            "translate": "whendungeonsarise.advancement.find_small_prairie_house",
             "color": "dark_aqua"
         },
         "description": {
-            "text": "Find a Small Prairie House "
+            "translate": "whendungeonsarise.advancement.find_small_prairie_house.desc"
         },
         "icon": {
             "item": "minecraft:furnace"

@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "The Imperial March",
+            "translate": "whendungeonsarise.advancement.find_heavenly_challenger",
             "color": "gold"
         },
         "description": {
-            "text": "Find a Heavenly Challenger"
+            "translate": "whendungeonsarise.advancement.find_heavenly_challenger.desc"
         },
         "icon": {
             "item": "minecraft:netherite_chestplate"

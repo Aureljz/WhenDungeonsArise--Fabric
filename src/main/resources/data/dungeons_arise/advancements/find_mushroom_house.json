@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Over The Garden Wall",
+            "translate": "whendungeonsarise.advancement.find_mushroom_house",
             "color": "dark_green"
         },
         "description": {
-            "text": "Find a Mushroom House"
+            "translate": "whendungeonsarise.advancement.find_mushroom_house.desc"
         },
         "icon": {
             "item": "minecraft:warped_fungus"

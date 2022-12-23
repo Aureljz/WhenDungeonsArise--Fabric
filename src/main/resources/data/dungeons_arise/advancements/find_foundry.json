@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Iron Maiden",
+            "translate": "whendungeonsarise.advancement.find_foundry",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find a Foundry "
+            "translate": "whendungeonsarise.advancement.find_foundry.desc"
         },
         "icon": {
             "item": "minecraft:netherite_ingot"

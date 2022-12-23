@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "All Along The Watchtower",
+            "translate": "whendungeonsarise.advancement.find_illager_windmill",
             "color": "dark_purple"
         },
         "description": {
-            "text": "Find an Illager Windmill"
+            "translate": "whendungeonsarise.advancement.find_illager_windmill.desc"
         },
         "icon": {
             "item": "minecraft:iron_hoe"

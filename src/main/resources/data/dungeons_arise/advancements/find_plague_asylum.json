@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Renai Circulation",
+            "translate": "whendungeonsarise.advancement.find_plague_asylum",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find a Plague Asylum"
+            "translate": "whendungeonsarise.advancement.find_plague_asylum.desc"
         },
         "icon": {
             "item": "minecraft:splash_potion"

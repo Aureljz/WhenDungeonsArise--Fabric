@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Three Little Birds",
+            "translate": "whendungeonsarise.advancement.find_aviary",
             "color": "gold"
         },
         "description": {
-            "text": "Find an Aviary"
+            "translate": "whendungeonsarise.advancement.find_aviary.desc"
         },
         "icon": {
             "item": "minecraft:phantom_membrane"

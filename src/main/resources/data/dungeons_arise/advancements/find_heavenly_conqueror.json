@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Ghost Riders In The Sky",
+            "translate": "whendungeonsarise.advancement.find_heavenly_conqueror",
             "color": "red"
         },
         "description": {
-            "text": "Find a Heavenly Conqueror"
+            "translate": "whendungeonsarise.advancement.find_heavenly_conqueror.desc"
         },
         "icon": {
             "item": "minecraft:golden_chestplate"
