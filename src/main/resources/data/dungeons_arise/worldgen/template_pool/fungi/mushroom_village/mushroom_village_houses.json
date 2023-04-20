@@ -1,0 +1,78 @@
+{
+  "name": "dungeons_arise:fungi/mushroom_village/mushroom_village_houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mushroom_village/mushroom_village_house_small_0",
+        "processors": "dungeons_arise:mushroom_village_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mushroom_village/mushroom_village_house_small_1",
+        "processors": "dungeons_arise:mushroom_village_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mushroom_village/mushroom_village_house_small_2",
+        "processors": "dungeons_arise:mushroom_village_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mushroom_village/mushroom_village_house_small_3",
+        "processors": "dungeons_arise:mushroom_village_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mushroom_village/mushroom_village_house_small_4",
+        "processors": "dungeons_arise:mushroom_village_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mushroom_village/mushroom_village_house_small_5",
+        "processors": "dungeons_arise:mushroom_village_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mushroom_village/mushroom_village_house_small_6",
+        "processors": "dungeons_arise:mushroom_village_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mushroom_village/mushroom_village_house_small_7",
+        "processors": "dungeons_arise:mushroom_village_houses",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

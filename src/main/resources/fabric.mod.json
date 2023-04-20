@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dungeons_arise",
+  "version": "${version}",
+
+  "name": "When Dungeons Arise",
+  "description": "Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds!",
+  "authors": [
+    "Aureljz, DiamondTown & Zephyrusj"
+  ],
+
+  "credits": "Special thanks to TheQKnight for their 1.19 port!",
+  "license": "All Rights Reserved",
+  "icon": "img.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.aurelj.dungeons_arise.DungeonsAriseMain"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "~1.19-",
+    "fabric": ">=0.47.8"
+  }
+}
