@@ -25,10 +25,6 @@
       "weight": 2
     },
     {
-      "structure": "dungeons_arise:giant_mushroom",
-      "weight": 1
-    },
-    {
       "structure": "dungeons_arise:heavenly_rider",
       "weight": 1
     },
@@ -106,7 +102,7 @@
     },
     {
       "structure": "dungeons_arise:greenwood_pub",
-      "weight": 1
+      "weight": 2
     }
   ],
   "placement": {
