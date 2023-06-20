@@ -28,6 +28,15 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:bathhouse/bathhouse_middle_3",
+        "processors": "dungeons_arise:bathhouse_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
