@@ -50,5 +50,10 @@
       }
     }
   },
-  "requirements": [["location0", "location1"]]
+  "requirements": [
+    [
+      "location0",
+      "location1"
+    ]
+  ]
 }

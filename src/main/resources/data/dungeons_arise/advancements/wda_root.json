@@ -27,5 +27,9 @@
       "trigger": "minecraft:tick"
     }
   },
-  "requirements": [["WDA"]]
+  "requirements": [
+    [
+      "WDA"
+    ]
+  ]
 }

@@ -25,15 +25,17 @@ SOFTWARE.
 package net.aurelj.dungeons_arise;
 
 import net.aurelj.dungeons_arise.structures.WDAGenericStructures;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import net.minecraft.world.gen.structure.StructureType;
 
 public class WDAStructures {
 
-    public static StructureType<WDAGenericStructures> GENERIC_STRUCTURES;
+        public static StructureType<WDAGenericStructures> GENERIC_STRUCTURES;
 
-    public static void registerStructureFeatures() {
-        GENERIC_STRUCTURES = Registry.register(Registry.STRUCTURE_TYPE, new Identifier(DungeonsAriseMain.MODID, "generic_structures"), () -> WDAGenericStructures.CODEC);
-    }
+        public static void registerStructureFeatures() {
+            GENERIC_STRUCTURES = Registry.register(Registries.STRUCTURE_TYPE, new Identifier(DungeonsAriseMain.MODID, "generic_structures"), () -> WDAGenericStructures.CODEC);
+        }
 }
