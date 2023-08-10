@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Renai Circulation",
+            "translate": "advancement.dungeons_arise.find_plague_asylum.title",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find a Plague Asylum"
+            "translate": "advancement.dungeons_arise.find_plague_asylum.desc"
         },
         "icon": {
             "item": "minecraft:splash_potion"
@@ -15,18 +15,24 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:plague_asylum"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:plague_asylum"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:wda_root"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:find_greenwood_pub"
 }

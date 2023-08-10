@@ -1,8 +1,8 @@
 {
     "display": {
         "title": {
-            "text": "When Dungeons Arise",
-            "color": "gold",
+            "translate": "advancement.dungeons_arise.wda_root.title",
+            "color":"white",
             "bold": false,
             "italic": false,
             "underlined": false,
@@ -10,26 +10,22 @@
             "obfuscated": false
         },
         "description": {
-            "text": "Dungeons arise on a brave new world",
+            "translate": "advancement.dungeons_arise.wda_root.desc",
             "color": "white"
         },
-        "icon": {
-            "item": "minecraft:golden_sword"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false,
-        "background": "dungeons_arise:textures/wda_background.png"
+    "icon": {
+      "item": "minecraft:golden_sword"
     },
-    "criteria": {
-        "WDA": {
-            "trigger": "minecraft:tick"
-        }
-    },
-    "requirements": [
-        [
-            "WDA"
-        ]
-    ]
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "dungeons_arise:textures/wda_background.png"
+  },
+  "criteria": {
+    "WDA": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [["WDA"]]
 }

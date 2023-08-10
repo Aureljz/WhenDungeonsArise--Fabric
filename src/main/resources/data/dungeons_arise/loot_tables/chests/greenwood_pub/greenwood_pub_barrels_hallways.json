@@ -1,0 +1,254 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Pewter Tonic\",\"italic\":false}',Lore:['{\"text\":\"A powerful brew distilled from withered flesh.\",\"italic\":true}']},CustomPotionEffects:[{Id:5,Amplifier:0b,Duration:4800},{Id:11,Amplifier:0b,Duration:4800},{Id:17,Amplifier:0b,Duration:4800}],Potion:\"minecraft:strength\",CustomPotionColor:11752018}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Phantom Menace\",\"italic\":false}',Lore:['{\"text\":\"Distilled from tears of unborn children.\",\"italic\":true}','{\"text\":\"Best served cold.\",\"italic\":true}']},CustomPotionEffects:[{Id:1,Amplifier:2b,Duration:9600},{Id:3,Amplifier:1b,Duration:9600},{Id:18,Amplifier:1b,Duration:9600}],Potion:\"minecraft:swiftness\",CustomPotionColor:2163727}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Addicting Beer\",\"italic\":false}',Lore:['{\"text\":\"Common beer with a touch of opioids.\",\"italic\":true}','{\"text\":\"Keeps villagers at bay.\",\"italic\":true}']},CustomPotionEffects:[{Id:2,Amplifier:2b,Duration:4800},{Id:4,Amplifier:2b,Duration:4800},{Id:11,Amplifier:3b,Duration:4800},{Id:18,Amplifier:2b,Duration:4800}],Potion:\"minecraft:weakness\",CustomPotionColor:16773151}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Kayra\\'s Curse\",\"italic\":false}',Lore:['{\"text\":\"Distilled from boiled frog legs and enhanced by the occult.\",\"italic\":true}','{\"text\":\"Nobody shall build a fortress higher than a man\\'s step.\",\"italic\":true}']},CustomPotionEffects:[{Id:8,Amplifier:80b,Duration:400},{Id:28,Amplifier:0b,Duration:4800}],Potion:\"minecraft:weakness\",CustomPotionColor:6519211}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Black Hole in a Bottle\",\"italic\":false}',Lore:['{\"text\":\"Particles of this brew seem to attract\",\"italic\":true}','{\"text\":\"and asimilate nearby objects.\",\"italic\":true}','{\"text\":\"Its name is purely metaphorical.\",\"italic\":true}']},CustomPotionEffects:[{Id:2,Amplifier:4b,Duration:1200},{Id:6,Amplifier:3b,Duration:0},{Id:7,Amplifier:3b,Duration:0},{Id:19,Amplifier:8b,Duration:1200},{Id:20,Amplifier:8b,Duration:1200}],Potion:\"minecraft:harming\",CustomPotionColor:0}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Will O\\' The Beer\",\"italic\":false}',Lore:['{\"text\":\"Some people describe its effects\",\"italic\":true}','{\"text\":\"as incredibly light and liberating.\",\"italic\":true}','{\"text\":\"But captives always spill out the\",\"italic\":true}','{\"text\":\"truth when they\\'re high enough.\",\"italic\":true}']},CustomPotionEffects:[{Id:25,Amplifier:1b,Duration:9600}],Potion:\"minecraft:harming\",CustomPotionColor:0}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Living Sponge\",\"italic\":false}',Lore:['{\"text\":\"Microscopic sponge particles\",\"italic\":true}','{\"text\":\"used to keep the breath.\",\"italic\":true}','{\"text\":\"Despite all reports of whispers and\",\"italic\":true}','{\"text\":\"intrusive thoughts, they should be\",\"italic\":true}','{\"text\":\"regarded as harmless.\",\"italic\":true}']},CustomPotionEffects:[{Id:13,Amplifier:0b,Duration:18000}],Potion:\"minecraft:harming\",CustomPotionColor:16776960}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Just Beer\",\"italic\":false}',Lore:['{\"text\":\"True beer. Really, just beer.\",\"italic\":true}','{\"text\":\"Beer beer beer beer.\",\"obfuscated\":true}']},CustomPotionEffects:[{Id:2,Amplifier:2b,Duration:4800},{Id:3,Amplifier:2b,Duration:4800},{Id:9,Amplifier:2b,Duration:4800},{Id:15,Amplifier:2b,Duration:4800},{Id:17,Amplifier:2b,Duration:4800},{Id:18,Amplifier:2b,Duration:4800}],Potion:\"minecraft:strength\",CustomPotionColor:16776960}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Thick Serum\",\"italic\":false}',Lore:['{\"text\":\"Distilled from magma cubes and freshly\",\"italic\":true}','{\"text\":\"harvested froglights.\",\"italic\":true}','{\"text\":\"Increases resistance during hot situations.\",\"italic\":true}']},CustomPotionEffects:[{Id:12,Amplifier:1b,Duration:18000}],Potion:\"minecraft:strength\",CustomPotionColor:16711680}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Liquid Emeralds\",\"italic\":false}',Lore:['{\"text\":\"Subjects can feel the thrill of business\",\"italic\":true}','{\"text\":\"running through their veins.\",\"italic\":true}','{\"text\":\"Proyective techniques reveal\",\"italic\":true}','{\"text\":\"temporary psychopatic tendencies.\",\"italic\":true}']},CustomPotionEffects:[{Id:32,Amplifier:1b,Duration:18000}],Potion:\"minecraft:strength\",CustomPotionColor:7798597}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Unethical Voyage\",\"italic\":false}',Lore:['{\"text\":\"Casts an aura of malice, and possibly bad breath.\",\"italic\":true}']},CustomPotionEffects:[{Id:31,Amplifier:4b,Duration:1200}],Potion:\"minecraft:swiftness\",CustomPotionColor:3014656}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fire_charge",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fermented_spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_sand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

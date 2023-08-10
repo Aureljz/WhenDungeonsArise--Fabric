@@ -4,8 +4,12 @@
       "item": "minecraft:rose_bush",
       "color": "dark_aqua"
     },
-    "title": "Guns and Roses",
-    "description": "Visit the Thornborn Towers",
+    "title": {
+            "translate": "advancement.dungeons_arise.find_thornborn_towers.desc"
+        },
+    "description": {
+            "translate": "advancement.dungeons_arise.find_thornborn_towers.desc"
+        },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,14 +19,20 @@
     "location0": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "dungeons_arise:thornborn_towers"
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:thornborn_towers"
+              }
+            }
+          }
+        ]
       }
     }
   },
-  "requirements": [
-    [
-      "location0"
-    ]
-  ],
+  "requirements": [["location0"]],
   "parent": "dungeons_arise:find_small_prairie_house"
 }

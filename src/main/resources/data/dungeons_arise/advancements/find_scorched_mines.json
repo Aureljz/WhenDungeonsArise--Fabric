@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Katabasis",
+            "translate": "advancement.dungeons_arise.find_scorched_mines.title",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find the Scorched Mines"
+            "translate": "advancement.dungeons_arise.find_scorched_mines.desc"
         },
         "icon": {
             "item": "minecraft:blaze_powder"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:scorched_mines"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:scorched_mines"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:wda_root"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:wda_root"
 }

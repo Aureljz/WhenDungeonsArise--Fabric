@@ -1,19 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "dungeons_arise",
-  "version": "${version}",
+  "version": "2.1.56",
 
   "name": "When Dungeons Arise",
   "description": "Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds!",
   "authors": [
-    "Aurelj, DiamondTown & Zephyrusj"
+    "Aureljz, DiamondTown & Zephyrusj"
   ],
-  "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise"
-  },
 
-  "license": "CC0-1.0",
-  "icon": "wda_logo.png",
+  "credits": "Special thanks to TheQKnight for their 1.19 port!",
+  "license": "All Rights Reserved",
+  "icon": "img.png",
 
   "environment": "*",
   "entrypoints": {
@@ -21,14 +19,10 @@
       "net.aurelj.dungeons_arise.DungeonsAriseMain"
     ]
   },
-  "mixins": [
-    "dungeons_arise.mixins.json"
-  ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
-    "fabric": "*",
-    "minecraft": "1.18.x",
-    "java": ">=17"
+    "fabricloader": ">=0.13.3",
+    "minecraft": ">=1.20",
+    "fabric": ">=0.47.8"
   }
 }

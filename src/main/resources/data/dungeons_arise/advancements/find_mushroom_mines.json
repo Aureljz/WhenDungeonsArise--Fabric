@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "We All Lift Together",
+            "translate": "advancement.dungeons_arise.find_mushroom_mines.title",
             "color": "dark_blue"
         },
         "description": {
-            "text": "Find a Mushroom Mine"
+            "translate": "advancement.dungeons_arise.find_mushroom_mines.desc"
         },
         "icon": {
             "item": "minecraft:iron_pickaxe"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:mushroom_mines"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:mushroom_mines"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:find_giant_mushroom"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:find_giant_mushroom"
 }

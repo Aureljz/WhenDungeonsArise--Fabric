@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Ghost Riders In The Sky",
+            "translate": "advancement.dungeons_arise.find_heavenly_conqueror.title",
             "color": "red"
         },
         "description": {
-            "text": "Find a Heavenly Conqueror"
+            "translate": "advancement.dungeons_arise.find_heavenly_conqueror.desc"
         },
         "icon": {
             "item": "minecraft:golden_chestplate"
@@ -15,18 +15,24 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:heavenly_conqueror"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:heavenly_conqueror"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:find_heavenly_rider"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:find_heavenly_rider"
 }

@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Sky High",
+            "translate": "advancement.dungeons_arise.find_small_blimp.title",
             "color": "red"
         },
         "description": {
-            "text": "Find a Small Blimp"
+            "translate": "advancement.dungeons_arise.find_small_blimp.desc"
         },
         "icon": {
             "item": "minecraft:comparator"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:small_blimp"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:small_blimp"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:wda_root"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:wda_root"
 }
