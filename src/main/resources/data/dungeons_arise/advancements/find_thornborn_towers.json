@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rose_bush",
-      "color": "dark_aqua"
+      "item": "minecraft:rose_bush"
     },
     "title": {
-            "translate": "advancement.dungeons_arise.find_thornborn_towers.desc"
-        },
+      "translate": "advancement.dungeons_arise.find_thornborn_towers.title",
+      "color": "dark_aqua"
+    },
     "description": {
-            "translate": "advancement.dungeons_arise.find_thornborn_towers.desc"
-        },
+      "translate": "advancement.dungeons_arise.find_thornborn_towers.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -33,6 +33,10 @@
       }
     }
   },
-  "requirements": [["location0"]],
+  "requirements": [
+    [
+      "location0"
+    ]
+  ],
   "parent": "dungeons_arise:find_small_prairie_house"
 }
