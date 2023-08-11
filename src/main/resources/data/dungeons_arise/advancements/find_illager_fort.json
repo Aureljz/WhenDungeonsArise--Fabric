@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Wild Tales",
+            "translate": "advancement.dungeons_arise.find_illager_fort.title",
             "color": "dark_purple"
         },
         "description": {
-            "text": "Find an Illager Fort"
+            "translate": "advancement.dungeons_arise.find_illager_fort.desc"
         },
         "icon": {
             "item": "minecraft:snowball"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:illager_fort"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:illager_fort"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:find_illager_campsite"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:find_illager_campsite"
 }

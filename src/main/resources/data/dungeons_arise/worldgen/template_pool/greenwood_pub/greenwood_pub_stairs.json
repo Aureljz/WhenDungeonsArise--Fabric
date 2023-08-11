@@ -1,0 +1,15 @@
+{
+  "name": "dungeons_arise:greenwood_pub/greenwood_pub_stairs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:greenwood_pub/greenwood_pub_stairs_2",
+        "processors": "dungeons_arise:greenwood_pub_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

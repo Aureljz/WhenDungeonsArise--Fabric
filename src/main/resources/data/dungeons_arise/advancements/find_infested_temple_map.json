@@ -3,8 +3,12 @@
     "icon": {
       "item": "minecraft:filled_map"
     },
-    "title": "On The Road",
-    "description": "Discover an Infested Temple explorer map",
+    "title": {
+            "translate": "advancement.dungeons_arise.find_infested_temple_map.title"
+        },
+    "description": {
+            "translate": "advancement.dungeons_arise.find_infested_temple_map.desc"
+        },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,

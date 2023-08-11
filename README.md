@@ -13,4 +13,3 @@ While most original structures from this mod were built by Aurelj, DiamondTown a
 [TelephaticGrunt's Structure Tutorial](https://github.com/TelepathicGrunt/StructureTutorialMod) was used as a reference for internal parts of the mod. This is an awesome modding tutorial and we wouldn't have been able to create this mod without some help.
 
 Their licence at the time of writing this is included on #licence.txt.
-

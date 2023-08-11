@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Remember Me For Centuries",
+            "translate": "advancement.dungeons_arise.find_coliseum.title",
             "color": "dark_red"
         },
         "description": {
-            "text": "Find a Coliseum"
+            "translate": "advancement.dungeons_arise.find_coliseum.desc"
         },
         "icon": {
             "item": "minecraft:shield"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:coliseum"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:coliseum"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:wda_root"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:wda_root"
 }

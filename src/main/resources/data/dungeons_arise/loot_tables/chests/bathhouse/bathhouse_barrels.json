@@ -1,0 +1,203 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Tequila\",\"italic\":false}'},CustomPotionEffects:[{Id:1,Amplifier:3b,Duration:300},{Id:3,Amplifier:3b,Duration:300},{Id:5,Amplifier:3b,Duration:300},{Id:9,Amplifier:0b,Duration:4800},{Id:11,Amplifier:3b,Duration:300},{Id:12,Amplifier:3b,Duration:300},{Id:22,Amplifier:3b,Duration:300}],CustomPotionColor:16750848}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Absinthe\",\"italic\":false}'},CustomPotionEffects:[{Id:5,Amplifier:1b,Duration:2400},{Id:9,Amplifier:0b,Duration:4800},{Id:11,Amplifier:1b,Duration:2400},{Id:22,Amplifier:1b,Duration:120}],CustomPotionColor:13762483}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Vodka\",\"italic\":false}'},CustomPotionEffects:[{Id:5,Amplifier:0b,Duration:4800},{Id:9,Amplifier:0b,Duration:2400},{Id:11,Amplifier:0b,Duration:4800}],CustomPotionColor:16770782}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Gin\",\"italic\":false}'},CustomPotionEffects:[{Id:9,Amplifier:0b,Duration:1200},{Id:16,Amplifier:0b,Duration:5000}],CustomPotionColor:16777215}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Fernet\",\"italic\":false}'},CustomPotionEffects:[{Id:1,Amplifier:0b,Duration:5000},{Id:9,Amplifier:0b,Duration:1200}],CustomPotionColor:1247001}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Wine\",\"italic\":false}'},CustomPotionEffects:[{Id:5,Amplifier:0b,Duration:4800},{Id:9,Amplifier:0b,Duration:1200}],CustomPotionColor:2822203}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cider\",\"italic\":false}'},CustomPotionEffects:[{Id:9,Amplifier:0b,Duration:1200},{Id:12,Amplifier:0b,Duration:4800}],CustomPotionColor:16764300}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Beer\",\"italic\":false}'},CustomPotionEffects:[{Id:3,Amplifier:0b,Duration:4800},{Id:9,Amplifier:0b,Duration:1200}],CustomPotionColor:16772608}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

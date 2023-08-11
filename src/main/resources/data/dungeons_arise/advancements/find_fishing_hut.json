@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Fishing In The Dark",
+            "translate": "advancement.dungeons_arise.find_fishing_hut.title",
             "color": "dark_blue"
         },
         "description": {
-            "text": "Find a Fishing Hut"
+            "translate": "advancement.dungeons_arise.find_fishing_hut.desc"
         },
         "icon": {
             "item": "minecraft:fishing_rod"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:fishing_hut"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:fishing_hut"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:find_small_prairie_house"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:find_small_prairie_house"
 }

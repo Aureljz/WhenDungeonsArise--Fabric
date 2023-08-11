@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blast_furnace"
+    },
+    "title": {
+      "translate": "advancement.dungeons_arise.find_bathhouse.title",
+      "color": "gold"
+    },
+    "description": {
+      "translate": "advancement.dungeons_arise.find_bathhouse.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "dungeons_arise:wda_root",
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:bathhouse"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "location0"
+    ]
+  ]
+}

@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "A Quiet Place",
+            "translate": "advancement.dungeons_arise.find_monasteries.title",
             "color": "blue"
         },
         "description": {
-            "text": "Find a Monastery"
+            "translate": "advancement.dungeons_arise.find_monasteries.desc"
         },
         "icon": {
             "item": "minecraft:feather"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:monastery"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:monastery"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:find_abandoned_temple"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:find_abandoned_temple"
 }

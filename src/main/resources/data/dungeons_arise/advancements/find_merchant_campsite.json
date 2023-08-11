@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Let's Groove",
+            "translate": "advancement.dungeons_arise.find_merchant_campsite.title",
             "color": "dark_green"
         },
         "description": {
-            "text": "Find a Merchant Campsite"
+            "translate": "advancement.dungeons_arise.find_merchant_campsite.desc"
         },
         "icon": {
             "item": "minecraft:emerald"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:merchant_campsite"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:merchant_campsite"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:wda_root"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:wda_root"
 }

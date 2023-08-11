@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Lost for Words",
+            "translate": "advancement.dungeons_arise.find_abandoned_temple.title",
             "color": "aqua"
         },
         "description": {
-            "text": "Find an Abandoned Temple"
+            "translate": "advancement.dungeons_arise.find_abandoned_temple.desc"
         },
         "icon": {
             "item": "minecraft:cracked_stone_bricks"
@@ -15,18 +15,24 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:abandoned_temple"
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:abandoned_temple"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:wda_root"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:wda_root"
 }
