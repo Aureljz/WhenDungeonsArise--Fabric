@@ -1,0 +1,114 @@
+{
+  "name": "dungeons_arise:mechanical_nest/mechanical_nest_bridges",
+  "fallback": "dungeons_arise:mechanical_nest/mechanical_nest_terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_0",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_1",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_2",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_3",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_4",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_5",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_6",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_7",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_8",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_0",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_1",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_bridge_terminator_2",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dungeons_arise:mechanical_nest/mechanical_nest_small_rooms",
+  "fallback": "dungeons_arise:mechanical_nest/mechanical_nest_small_rooms",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

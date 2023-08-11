@@ -39,6 +39,10 @@
     {
       "structure": "dungeons_arise:keep_kayra",
       "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mechanical_nest",
+      "weight": 1
     }
   ],
   "placement": {
