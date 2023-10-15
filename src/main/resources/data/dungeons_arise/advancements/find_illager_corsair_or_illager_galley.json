@@ -4,11 +4,11 @@
       "item": "minecraft:tropical_fish"
     },
     "title": {
-      "text": "You Are A Pirate",
+      "translate": "advancement.dungeons_arise.find_illager_corsair_or_illager_galley.title",
       "color": "dark_aqua"
     },
     "description": {
-      "text": "Find an Illager Corsair or an Illager Galley"
+      "translate": "advancement.dungeons_arise.find_illager_corsair_or_illager_galley.desc"
     },
     "frame": "task",
     "show_toast": true,
@@ -50,10 +50,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "location0",
-      "location1"
-    ]
-  ]
+  "requirements": [["location0", "location1"]]
 }

@@ -4,11 +4,11 @@
       "item": "minecraft:barrel"
     },
     "title": {
-      "text": "Sgt. Peppers Lonely Hearts Club",
+      "translate": "advancement.dungeons_arise.find_greenwood_pub.title",
       "color": "gold"
     },
     "description": {
-      "text": "Find a Greenwood Pub"
+      "translate": "advancement.dungeons_arise.find_greenwood_pub.desc"
     },
     "frame": "task",
     "show_toast": true,

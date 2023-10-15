@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 3,
       "element": {
         "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_2",
         "processors": "dungeons_arise:mechanical_nest_main",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 3,
       "element": {
         "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_3",
         "processors": "dungeons_arise:mechanical_nest_main",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 3,
       "element": {
         "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_4",
         "processors": "dungeons_arise:mechanical_nest_main",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 3,
       "element": {
         "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_5",
         "processors": "dungeons_arise:mechanical_nest_main",
@@ -60,6 +60,42 @@
       "weight": 1,
       "element": {
         "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_6",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_7",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_8",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_9",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_10",
         "processors": "dungeons_arise:mechanical_nest_main",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

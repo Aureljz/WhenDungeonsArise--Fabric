@@ -1,20 +1,20 @@
 {
-  "display": {
-    "title": {
-      "text": "Stone Free",
-      "color": "dark_gray"
+    "display": {
+        "title": {
+            "translate": "advancement.dungeons_arise.find_mining_system.title",
+            "color": "dark_gray"
+        },
+        "description": {
+            "translate": "advancement.dungeons_arise.find_mining_system.desc"
+        },
+        "icon": {
+            "item": "minecraft:hopper_minecart"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
-    "description": {
-      "text": "Find a Mining System"
-    },
-    "icon": {
-      "item": "minecraft:hopper_minecart"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "criteria": {
     "location0": {
       "trigger": "minecraft:location",
@@ -33,10 +33,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "location0"
-    ]
-  ],
+  "requirements": [["location0"]],
   "parent": "dungeons_arise:wda_root"
 }

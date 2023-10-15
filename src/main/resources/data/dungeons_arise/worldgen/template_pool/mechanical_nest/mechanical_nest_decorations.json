@@ -1,6 +1,6 @@
 {
   "name": "dungeons_arise:mechanical_nest/mechanical_nest_decorations",
-  "fallback": "dungeons_arise:mechanical_nest/mechanical_nest_terminators",
+  "fallback": "dungeons_arise:mechanical_nest/mechanical_nest_decorations",
   "elements": [
     {
       "weight": 1,

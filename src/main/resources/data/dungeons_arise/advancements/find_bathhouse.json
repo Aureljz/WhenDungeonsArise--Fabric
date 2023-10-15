@@ -4,11 +4,11 @@
       "item": "minecraft:blast_furnace"
     },
     "title": {
-      "text": "Curses",
+      "translate": "advancement.dungeons_arise.find_bathhouse.title",
       "color": "gold"
     },
     "description": {
-      "text": "Find a Bathhouse"
+      "translate": "advancement.dungeons_arise.find_bathhouse.desc"
     },
     "frame": "task",
     "show_toast": true,

@@ -1,20 +1,20 @@
 {
-  "display": {
-    "title": {
-      "text": "Super Creeps",
-      "color": "dark_red"
+    "display": {
+        "title": {
+            "translate": "advancement.dungeons_arise.find_infested_temple.title",
+            "color": "dark_red"
+        },
+        "description": {
+            "translate": "advancement.dungeons_arise.find_infested_temple.desc"
+        },
+        "icon": {
+            "item": "minecraft:infested_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
-    "description": {
-      "text": "Find an Infested Temple"
-    },
-    "icon": {
-      "item": "minecraft:infested_stone_bricks"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "criteria": {
     "location0": {
       "trigger": "minecraft:location",
@@ -33,10 +33,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "location0"
-    ]
-  ],
+  "requirements": [["location0"]],
   "parent": "dungeons_arise:find_abandoned_temple"
 }

@@ -1,11 +1,11 @@
 {
   "display": {
     "title": {
-      "text": "Distant Dreamer",
+      "translate": "advancement.dungeons_arise.find_keep_kayra.title",
       "color": "gold"
     },
     "description": {
-      "text": "Find Keep Kayra"
+      "translate": "advancement.dungeons_arise.find_keep_kayra.desc"
     },
     "icon": {
       "item": "minecraft:lily_pad"
@@ -33,10 +33,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "location0"
-    ]
-  ],
+  "requirements": [["location0"]],
   "parent": "dungeons_arise:wda_root"
 }

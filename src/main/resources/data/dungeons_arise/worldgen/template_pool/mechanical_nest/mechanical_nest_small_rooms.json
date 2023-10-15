@@ -5,7 +5,82 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:empty_pool_element"
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_0",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_1",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_2",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_3",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_4",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_5",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_6",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_7",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_small_room_8",
+        "processors": "dungeons_arise:mechanical_nest_main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
       }
     }
   ]

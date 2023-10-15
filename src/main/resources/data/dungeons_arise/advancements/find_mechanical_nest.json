@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.dungeons_arise.find_mechanical_nest.title",
+            "color": "red"
+        },
+        "description": {
+            "translate": "advancement.dungeons_arise.find_mechanical_nest.desc"
+        },
+        "icon": {
+            "item": "minecraft:observer"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:mechanical_nest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:find_small_blimp"
+}

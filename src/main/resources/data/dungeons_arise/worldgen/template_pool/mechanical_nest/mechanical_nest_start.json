@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "dungeons_arise:mechanical_nest/mechanical_nest_crossing_6",
+        "location": "dungeons_arise:mechanical_nest/mechanical_nest_start_0",
         "processors": "dungeons_arise:mechanical_nest_main",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

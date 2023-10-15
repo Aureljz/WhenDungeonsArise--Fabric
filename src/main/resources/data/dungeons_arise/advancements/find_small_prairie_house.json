@@ -1,20 +1,20 @@
 {
-  "display": {
-    "title": {
-      "text": "The Good Place",
-      "color": "dark_aqua"
+    "display": {
+        "title": {
+            "translate": "advancement.dungeons_arise.find_small_prairie_house.title",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "translate": "advancement.dungeons_arise.find_small_prairie_house.desc"
+        },
+        "icon": {
+            "item": "minecraft:furnace"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
     },
-    "description": {
-      "text": "Find a Small Prairie House "
-    },
-    "icon": {
-      "item": "minecraft:furnace"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": false,
-    "hidden": false
-  },
   "criteria": {
     "location0": {
       "trigger": "minecraft:location",
@@ -33,10 +33,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "location0"
-    ]
-  ],
+  "requirements": [["location0"]],
   "parent": "dungeons_arise:wda_root"
 }

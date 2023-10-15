@@ -1,20 +1,20 @@
 {
-  "display": {
-    "title": {
-      "text": "Smoke On The Water",
-      "color": "dark_purple"
+    "display": {
+        "title": {
+            "translate": "advancement.dungeons_arise.find_undead_pirate_ship.title",
+            "color": "dark_purple"
+        },
+        "description": {
+            "translate": "advancement.dungeons_arise.find_undead_pirate_ship.desc"
+        },
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
-    "description": {
-      "text": "Find an Undead Pirate Ship"
-    },
-    "icon": {
-      "item": "minecraft:gunpowder"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "criteria": {
     "location0": {
       "trigger": "minecraft:location",
@@ -33,10 +33,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "location0"
-    ]
-  ],
+  "requirements": [["location0"]],
   "parent": "dungeons_arise:wda_root"
 }

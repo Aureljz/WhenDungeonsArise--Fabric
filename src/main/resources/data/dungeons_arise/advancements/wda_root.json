@@ -1,7 +1,7 @@
 {
   "display": {
     "title": {
-      "text": "When Dungeons Arise",
+      "translate": "advancement.dungeons_arise.wda_root.title",
       "color": "gold",
       "bold": false,
       "italic": false,
@@ -10,7 +10,7 @@
       "obfuscated": false
     },
     "description": {
-      "text": "Dungeons arise on a brave new world",
+      "translate": "advancement.dungeons_arise.wda_root.desc",
       "color": "white"
     },
     "icon": {

@@ -1,20 +1,20 @@
 {
-  "display": {
-    "title": {
-      "text": "Ride Of The Valkyries",
-      "color": "dark_red"
+    "display": {
+        "title": {
+            "translate": "advancement.dungeons_arise.find_heavenly_rider.title",
+            "color": "dark_red"
+        },
+        "description": {
+            "translate": "advancement.dungeons_arise.find_heavenly_rider.desc"
+        },
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
     },
-    "description": {
-      "text": "Find a Heavenly Rider"
-    },
-    "icon": {
-      "item": "minecraft:saddle"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": false,
-    "hidden": false
-  },
   "criteria": {
     "location0": {
       "trigger": "minecraft:location",
@@ -33,10 +33,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "location0"
-    ]
-  ],
+  "requirements": [["location0"]],
   "parent": "dungeons_arise:wda_root"
 }

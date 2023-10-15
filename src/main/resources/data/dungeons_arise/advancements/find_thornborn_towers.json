@@ -1,11 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rose_bush",
+      "item": "minecraft:rose_bush"
+    },
+    "title": {
+      "translate": "advancement.dungeons_arise.find_thornborn_towers.title",
       "color": "dark_aqua"
     },
-    "title": "Guns and Roses",
-    "description": "Visit the Thornborn Towers",
+    "description": {
+      "translate": "advancement.dungeons_arise.find_thornborn_towers.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
